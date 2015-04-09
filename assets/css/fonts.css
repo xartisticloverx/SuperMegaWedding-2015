@@ -1,0 +1,78 @@
+/* FONTS */
+@font-face {
+    font-family: 'quicksanddash';
+    src: url('../fonts/Quicksand_Dash-webfont.eot');
+    src: url('../fonts/Quicksand_Dash-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand_Dash-webfont.woff2') format('woff2'),
+         url('../fonts/Quicksand_Dash-webfont.woff') format('woff'),
+         url('../fonts/Quicksand_Dash-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand_Dash-webfont.svg#quicksanddash') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/Quicksand-Bold-webfont.eot');
+    src: url('../fonts/Quicksand-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Quicksand-Bold-webfont.woff') format('woff'),
+         url('../fonts/Quicksand-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand-Bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/Quicksand-Light-webfont.eot');
+    src: url('../fonts/Quicksand-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Quicksand-Light-webfont.woff') format('woff'),
+         url('../fonts/Quicksand-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand-Light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/Quicksand-Regular-webfont.eot');
+    src: url('../fonts/Quicksand-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quicksand-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Quicksand-Regular-webfont.woff') format('woff'),
+         url('../fonts/Quicksand-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Quicksand-Regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adios_adiosscriptaltivandorns';
+    src: url('../fonts/Adios Script Alt IV and Orns-webfont.eot');
+    src: url('../fonts/Adios Script Alt IV and Orns-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Adios Script Alt IV and Orns-webfont.woff2') format('woff2'),
+         url('../fonts/Adios Script Alt IV and Orns-webfont.woff') format('woff'),
+         url('../fonts/Adios Script Alt IV and Orns-webfont.ttf') format('truetype'),
+         url('../fonts/Adios Script Alt IV and Orns-webfont.svg#adios_adiosscriptaltivandorns') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adios_script_proregular';
+    src: url('../fonts/AdiosScriptPro-webfont.eot');
+    src: url('../fonts/AdiosScriptPro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AdiosScriptPro-webfont.woff2') format('woff2'),
+         url('../fonts/AdiosScriptPro-webfont.woff') format('woff'),
+         url('../fonts/AdiosScriptPro-webfont.ttf') format('truetype'),
+         url('../fonts/AdiosScriptPro-webfont.svg#adios_script_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
