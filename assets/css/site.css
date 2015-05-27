@@ -10,11 +10,13 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	background: url('../img/bg_@2x.png') repeat;
-    padding: 185px 0 0 0 ;
+    
     background-size: 23px 23px;
     font-family: 'quicksandregular', Helvetica, Arial, sans-serif;
 }
@@ -38,7 +40,6 @@ body {
 }
 
 header {
-	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -47,13 +48,17 @@ header {
 	z-index: 9;
 }
 
+.nav-container {
+	background: url('../img/seed_paper_tpt.png') repeat;
+}
+
 .opening-note {
 	max-width: 305px;
 	margin: 0 auto;
 }
 
 h1 {
-	margin: 10px 0;
+	margin: 0 0 10px 0;
 	text-align: center;
 }
 
@@ -259,11 +264,25 @@ footer {
 	text-align: center;
 }
 
+/* RSVP */
+.rsvp-content {
+	overflow: hidden;
+}
+
+iframe#rsvp-frame {
+	width: 100%;
+	height: 1045px;
+	margin: -365px 0 0 0;
+	border: 0;
+	overflow: hidden;
+}
+.iframe_shift { width:100px; height: 45px; position: relative; top: 25px; left: 45px;  }​
+
 /* Media Queries */
 
 @media only screen and (min-width: 375px) and (max-width: 399px){
 	body {
-		padding: 205px 0 0 0;
+		
 	}
 	nav ul {
 		max-width: 300px;
@@ -282,7 +301,7 @@ footer {
 
 @media only screen and (min-width: 400px) {
 	body {
-		padding: 174px 0 0 0;
+		
 	}
 
 	nav ul {
@@ -297,7 +316,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
 	body {
-		padding: 215px 0 0 0;
+		
 	}
 
 	#plant-invites > div {
@@ -347,7 +366,7 @@ footer {
 		}
 
 	#when-where {
-	overflow: hidden;
+	 /*overflow: hidden;*/
 	}
 
 	.where-content, .map {
@@ -409,5 +428,9 @@ footer {
 	}
 	.ladies > div, .gents > div {
 		margin: 0 35px;
+	}
+	iframe#rsvp-frame {
+		height: 845px;
+		margin: -365px 0 0 0;
 	}
 }

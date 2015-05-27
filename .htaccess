@@ -402,9 +402,10 @@ AddDefaultCharset utf-8
     RewriteRule ^story$ /index.html#$1 [QSA,NE]
     RewriteRule ^when-where$ /index.html#$1 [QSA,NE]
     RewriteRule ^our-party$ /index.html#$1 [QSA,NE]
-    RewriteRule ^rsvp$ /index.html#$1 [QSA,NE]
     RewriteRule ^gifts$ /index.html#$1 [QSA,NE]
 </IfModule>
+
+RedirectMatch 301 /rsvp http://supermegawedding.rsvpify.com/
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
